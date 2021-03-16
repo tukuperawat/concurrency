@@ -10,42 +10,43 @@ jobs: # we now have TWO jobs, so that a workflow can coordinate them!
     steps:
       - checkout # this pulls code down from GitHub
       - run: echo "A first hello" # This prints "A first hello" to stdout.
-      - run: sleep 25 # a command telling the job to "sleep" for 25 seconds.
-            - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
+      - run: sleep 525 # a command telling the job to "sleep" for 25 seconds.
   two: # This is our second job.
     docker: # it runs inside a docker image, the same as above.
       - image: circleci/ruby:2.4.1
@@ -55,41 +56,42 @@ jobs: # we now have TWO jobs, so that a workflow can coordinate them!
     steps:
       - checkout
       - run: echo "A more familiar hi" # We run a similar echo command to above.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
-      - run: sleep 490 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
+      - run: sleep 500 # and then sleep for 15 seconds.
 # Under the workflows: map, we can coordinate our two jobs, defined above.
 workflows:
   version: 2
